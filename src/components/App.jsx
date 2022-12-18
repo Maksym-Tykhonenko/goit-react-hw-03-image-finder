@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Toaster } from 'react-hot-toast';
 
 import {Searchbar }from "./Searchbar/Searchbar";
-import { ImageGallery } from "./ImageGallery/ImageGallery";
+import { ImageGallery } from "./Gallery/ImageGallery/ImageGallery";
 
 import {Wrapp } from './App.styled';
 
