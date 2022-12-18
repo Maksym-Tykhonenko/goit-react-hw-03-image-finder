@@ -66,10 +66,11 @@ export class ImageGallery extends Component {
             )
           })}
         </GallaryList>
-        {data.length > 0 && <Button onClick={this.onLoadMoreClick }/>}
+        {data.length > 0 && <Button onClick={this.onLoadMoreClick} />}
         
       </>
     );
-  }
+  };
 };
+
 

@@ -20,11 +20,13 @@ export class Modal extends Component {
             this.props.onClose();
         };
     };
+
     hendleBackdropClick = (e) => {
         if (e.currentTarget !== e.target) {
             this.props.onClose();
-        }
-    }
+        };
+    };
+    
     render() {
         const { largeImg, tags } = this.props;
         

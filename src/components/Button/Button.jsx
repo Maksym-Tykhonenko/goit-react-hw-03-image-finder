@@ -5,6 +5,7 @@ export const Button = ({ onClick }) => {
     return (
         <Btn
             type="button"
-            onClick={onClick}>Load more</Btn>
-    )
-}
+            onClick={onClick}>Load more
+        </Btn>
+    );
+};

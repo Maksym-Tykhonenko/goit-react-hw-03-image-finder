@@ -13,7 +13,7 @@ export class Searchbar extends Component {
       query: e.currentTarget.value
     })
   };
-//.toLowerCase()
+
   hendleSubmit = (e) => {
     const { onSubmit } = this.props;
     const { query } = this.state;

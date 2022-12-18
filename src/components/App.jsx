@@ -14,7 +14,6 @@ export class App extends Component {
     query: '',
   };
 
-
   onSubmit = (query) => {
     this.setState({
       query

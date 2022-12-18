@@ -61,7 +61,7 @@ export const Btn = styled.button`
   }
 `;
 export const BtnLable = styled.span`
-      position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -72,6 +72,3 @@ export const BtnLable = styled.span`
   border: 0;
 `;
 
-
-/*export const List = styled.ul`
-    list-style: none; */
